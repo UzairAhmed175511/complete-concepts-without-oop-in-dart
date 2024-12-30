@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   //Write a Dart program to get a new string from a given string where "Is" has been added to the front.
-//        //If the given string already begins with "Is" then return the string unchanged.
+  //If the given string already begins with "Is" then return the string unchanged.
   print('enter the string');
   String s = stdin.readLineSync()!;
   if (s.startsWith('is')) {
