@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  //QUESTION (20)
+  //QUESTION (19)
   //Create a program that ask the user for a number and then print out a list of all the divisors of that numbers
   print("enter the number");
   int h = int.parse(stdin.readLineSync()!);
